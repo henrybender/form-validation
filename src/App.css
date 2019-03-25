@@ -1,0 +1,120 @@
+.formContainer {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formContents {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  align-items: center;
+}
+
+
+input {
+    border-color: #ebebeb
+}
+
+input:focus {
+    border-color: #b2cfff;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  color: rgb(0, 0, 0);
+}
+
+.message {
+  font-size: 1.0em;
+  color: rgb(90, 90, 90);
+  font-weight: normal;
+}
+
+button {
+  background-color: #519e64;
+  color: #fff;
+  border: 2px solid #fff;
+  width: 30%;
+  margin-top: 1em;
+  padding: 8px 0px;
+  font-size: 1em;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  margin-bottom: 0.25em;
+}
+
+label {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  align-self: center;
+}
+
+input {
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #ebebeb;
+  width: 100%;
+}
+
+input::placeholder {
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: rgb(138, 138, 138);
+}
+
+.message-box {
+  margin-left: 1%;
+  display: flex;
+  flex-direction: row;
+  align-items : center;
+  width: 100%;
+}
+
+.name,
+.email,
+.phone,
+.blog {
+  margin-left: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items : center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.label {
+  display : flex;
+  flex-grow : 1;
+  min-width: 100px;
+  max-width: 100px;
+  justify-content: flex-end;
+  height: 100%;
+  align-self: auto;
+  padding-right: 10px;
+}
+
+.input {
+  flex-grow : 1;
+}
+
+.submitForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
